@@ -17,7 +17,7 @@ def present_quiz(questions):
 
 def main():
     name = input("Enter your name: ")
-    
+    print(f"Hi {name}, Welcome to the Quiz game :)")
     conn = sqlite3.connect('python_project3/quiz_app.db')
     cursor = conn.cursor()
 
